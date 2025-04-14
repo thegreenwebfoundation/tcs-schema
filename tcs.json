@@ -1,0 +1,88 @@
+// tcs.json
+[
+    // TCS numbers for 2023.
+	{
+		"organisation": {
+			"name": "Green Web Foundation",
+            "description": "Green Web Foundation is a non-profit organisation working towards a fossil-free internet by 2030.",
+            "open_corporates_id": "52191494",
+            "registered_country": "The Netherlands"
+		},
+		"reporting_period": {
+			"from_date": "2023-01-01",
+			"to_date": "2023-12-31"
+		},
+		"verification": "self reported",
+		"disclosures": [
+			{
+				"url": "https://www.techcarbonstandard.org/case-studies/green-web-foundation",
+				"doc_type": "Methodology",
+				"description": "We use the TCS framework to estimate GWF’s digital estate, fully documenting the decisions, methodology and learning points."
+			}
+		],
+		"upstream_emissions": {
+			"software": {
+				"emissions": 0,
+				"notes": "No data."
+			},
+			"employee_hardware": {
+				"emissions": 186,
+				"notes": "Detailed estimate - high confidence."
+			},
+			"network_hardware": {
+				"emissions": 0,
+				"notes": "High level estimate - medium confidence."
+			},
+			"server_hardware": {
+				"emissions": 0,
+				"notes": "Not applicable."
+			}
+		},
+		"direct_emissions": {
+			"onsite_employee_hardware": {
+				"emissions": 116,
+				"notes": "Detailed estimate - high confidence."
+			},
+			"networking": {
+				"emissions": 40,
+				"notes": "High level estimate - medium confidence."
+			},
+			"servers": {
+				"emissions": 0,
+				"notes": "Not applicable."
+			},
+			"generators": {
+				"emissions": 0,
+				"notes": "Not applicable."
+			}
+		},
+		"indirect_emissions": {
+			"offsite_employee_hardware": {
+				"emissions": 0,
+				"notes": "Not measured, new category since we used TCS"
+			},
+			"cloud_services": {
+				"emissions": 27,
+				"notes": "Mix of high level and detailed estimates - low to medium confidence."
+			},
+			"saas": {
+				"emissions": 0,
+				"notes": "No data."
+			},
+			"managed_services": {
+				"emissions": 0,
+				"notes": "High level estimate - medium confidence."
+			}
+		},
+		"downstream_emissions": {
+			"end_user_devices": {
+				"emissions": 117,
+				"notes": "High level estimate - low confidence."
+			},
+			"network_data_transfer": {
+				"emissions": 10,
+				"notes": "High level estimate - medium confidence."
+			}
+		}
+	}
+]
