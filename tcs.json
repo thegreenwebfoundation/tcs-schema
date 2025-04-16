@@ -2,9 +2,9 @@
 	{
 		"organisation": {
 			"name": "Green Web Foundation",
-            "description": "Green Web Foundation is a non-profit organisation working towards a fossil-free internet by 2030.",
-            "open_corporates_id": "52191494",
-            "registered_country": "The Netherlands"
+			"description": "Green Web Foundation is a non-profit organisation working towards a fossil-free internet by 2030.",
+			"open_corporates_id": "nl/52191494",
+			"registered_country": "The Netherlands"
 		},
 		"reporting_period": {
 			"from_date": "2023-01-01",
